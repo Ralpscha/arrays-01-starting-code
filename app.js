@@ -22,7 +22,6 @@
 //         console.log(dataPoint);
 //     }
 // }
-//
 // console.log(personalData[1]);
 //
 const hobbies = ['Sports', 'Cooking'];
@@ -43,3 +42,9 @@ console.log(hobbies);
 
 const removedElements = hobbies.splice(-2,1);
 console.log(hobbies);
+
+const testResults = [1,5.3, 1.5, 10.99, -5, 10];
+const storedResults = testResults.slice(); //copies the array
+
+testResults.push(5.91);
+console.log(testResults, storedResults);
