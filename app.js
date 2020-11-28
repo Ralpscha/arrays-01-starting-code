@@ -49,19 +49,33 @@ const testResults = [1,5.3, 1.5, 10.99, -5, 10];
 // testResults.push(5.91);
 // console.log(testResults, storedResults);
 //
+//
+// console.log(testResults.includes(10.98));
+// const personData = [{name: 'Max'}, {name: 'Manuel'}];
+// // console.log(personData.indexOf({name: 'Manuel'})); // dit geeft een -1.
+//
+// const manuel = personData.find((person, idx, persons) => {
+//     return person.name === 'Manuel';
+// });
+// console.log(manuel);
+//
+// const maxIndex = personData.findIndex((person, idx, persons)=>{
+//     return person.name === 'Max';
+// });
 
-console.log(testResults.includes(10.98));
-const personData = [{name: 'Max'}, {name: 'Manuel'}];
-// console.log(personData.indexOf({name: 'Manuel'})); // dit geeft een -1.
+// console.log(maxIndex);
 
-const manuel = personData.find((person, idx, persons) => {
-    return person.name === 'Manuel';
+const prices = [10.99, 5.99, 3.99, 6.59];
+const tax = 0.19;
+const taxAdjustedPrices = [];
+
+// for (const price of prices) {
+//     taxAdjustedPrices.push(Math.round(price * (1 + tax)*100)/100);
+// }
+
+prices.forEach((price, idx, prices) => {
+    const priceObj = {index: idx, taxAdjPrice: Math.round(price * (1 + tax)*100)/100};
+    taxAdjustedPrices.push(priceObj);
 });
-console.log(manuel);
-
-const max = personData.findIndex((person, idx, persons)=>{
-    return person.name === 'Max';
-});
-
-console.log(max);
+console.log(taxAdjustedPrices);
 
