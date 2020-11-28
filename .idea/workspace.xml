@@ -76,6 +76,7 @@
       <workItem from="1606232747943" duration="3668000" />
       <workItem from="1606330695668" duration="75000" />
       <workItem from="1606472559785" duration="1750000" />
+      <workItem from="1606560614123" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="tm 186 arrays loop">
       <created>1606235827958</created>
@@ -107,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tm 186 arrays loop" />
