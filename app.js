@@ -65,17 +65,37 @@ const testResults = [1,5.3, 1.5, 10.99, -5, 10];
 
 // console.log(maxIndex);
 
+// const prices = [10.99, 5.99, 3.99, 6.59];
+// const tax = 0.19;
+// const taxAdjustedPrices = [];
+//
+// // for (const price of prices) {
+// //     taxAdjustedPrices.push(Math.round(price * (1 + tax)*100)/100);
+// // }
+//
+// prices.forEach((price, idx, prices) => {
+//     const priceObj = {index: idx, taxAdjPrice: Math.round(price * (1 + tax)*100)/100};
+//     taxAdjustedPrices.push(priceObj);
+// });
+// console.log(taxAdjustedPrices);
+
 const prices = [10.99, 5.99, 3.99, 6.59];
 const tax = 0.19;
-const taxAdjustedPrices = [];
 
-// for (const price of prices) {
-//     taxAdjustedPrices.push(Math.round(price * (1 + tax)*100)/100);
-// }
-
-prices.forEach((price, idx, prices) => {
+const taxAdjustedPrices = prices.map((price, idx, prices) => {
     const priceObj = {index: idx, taxAdjPrice: Math.round(price * (1 + tax)*100)/100};
-    taxAdjustedPrices.push(priceObj);
+    return priceObj;
 });
-console.log(taxAdjustedPrices);
+// console.log('Prices: ' , prices, 'Adjusted: ', taxAdjustedPrices);
 
+const sortedPrices = prices.sort((a, b) => {
+    if (a > b) {
+        return 1;
+    } else if(a === b) {
+        return 0;
+    } else {
+        return -1;
+    }
+});
+console.log(sortedPrices);
+console.log(sortedPrices.reverse());

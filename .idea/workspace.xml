@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984ced2e-284a-4da1-9c68-9ecaed8ae47e" name="Default Changelist" comment="Tm 193 findIndex">
+    <list default="true" id="984ced2e-284a-4da1-9c68-9ecaed8ae47e" name="Default Changelist" comment="Tm 194 forEach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
@@ -76,7 +76,7 @@
       <workItem from="1606232747943" duration="3668000" />
       <workItem from="1606330695668" duration="75000" />
       <workItem from="1606472559785" duration="1750000" />
-      <workItem from="1606560614123" duration="2630000" />
+      <workItem from="1606560614123" duration="5381000" />
     </task>
     <task id="LOCAL-00001" summary="tm 186 arrays loop">
       <created>1606235827958</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606562200448</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tm 194 forEach">
+      <created>1606563444597</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606563444597</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +129,8 @@
     <MESSAGE value="Tm 188 splice" />
     <MESSAGE value="Tm 193" />
     <MESSAGE value="Tm 193 findIndex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tm 193 findIndex" />
+    <MESSAGE value="Tm 194 forEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tm 194 forEach" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="334" key="Github.ShareDialog" timestamp="1606232758804">
@@ -133,9 +141,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="405" y="141" key="Github.UntrackedFilesDialog/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606232770963" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606562203549">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606563700976">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606562203549" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606563700976" />
   </component>
 </project>
