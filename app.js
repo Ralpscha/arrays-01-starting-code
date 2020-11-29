@@ -120,30 +120,38 @@ const taxAdjustedPrices = prices.map((price, idx, prices) => {
 // const sum = prices.reduce((prevValue, curValue) => prevValue + curValue,0);
 //
 // console.log(sum);
-
-const data = 'new york;10.99;2000';
-const transformedData = data.split(';');
-console.log(transformedData);
-
-const nameFragments = ['Max','Schwarz'];
-const name = nameFragments.join(' ');
-console.log(name);
-
-const copiedNameFragments = [...nameFragments];
-console.log(copiedNameFragments, nameFragments);
-
-console.log(Math.min(...prices));
-
-const persons = [{name: 'Max', age: 30}, {name: 'Manuel', age: 32}, {name: 'Anna', age: 28}];
-const copiedPersons = [...persons];
-console.log(persons, copiedPersons);
-// persons[0].age = 64;
+//
+// const data = 'new york;10.99;2000';
+// const transformedData = data.split(';');
+// console.log(transformedData);
+//
+// const nameFragments = ['Max','Schwarz'];
+// const name = nameFragments.join(' ');
+// console.log(name);
+//
+// const copiedNameFragments = [...nameFragments];
+// console.log(copiedNameFragments, nameFragments);
+//
+// console.log(Math.min(...prices));
+//
+// const persons = [{name: 'Max', age: 30}, {name: 'Manuel', age: 32}, {name: 'Anna', age: 28}];
+// const copiedPersons = [...persons];
 // console.log(persons, copiedPersons);
-const realCopiedPersons = persons.map(person => ({
-    name: person.name,
-    age: person.age
-}));
-
-persons[0].age = 64;
-console.log(persons, realCopiedPersons);
+// // persons[0].age = 64;
+// // console.log(persons, copiedPersons);
+// const realCopiedPersons = persons.map(person => ({
+//     name: person.name,
+//     age: person.age
+// }));
+//
+// persons[0].age = 64;
+// console.log(persons, realCopiedPersons);
 // mapping maakt een echt nieuw object.
+
+const nameData = ['Max', 'Schwarz', 'Mr', 30];
+// const firstName = nameData[0];
+// const lastName = nameData[1];
+
+const [firstName, lastName, ...otherInformation] = nameData;
+console.log(firstName, lastName, otherInformation[0]);
+
