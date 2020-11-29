@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984ced2e-284a-4da1-9c68-9ecaed8ae47e" name="Default Changelist" comment="Tm 1967 filter">
+    <list default="true" id="984ced2e-284a-4da1-9c68-9ecaed8ae47e" name="Default Changelist" comment="Tm 200 reduce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +76,7 @@
       <workItem from="1606232747943" duration="3668000" />
       <workItem from="1606330695668" duration="75000" />
       <workItem from="1606472559785" duration="1750000" />
-      <workItem from="1606560614123" duration="8368000" />
+      <workItem from="1606560614123" duration="11258000" />
     </task>
     <task id="LOCAL-00001" summary="tm 186 arrays loop">
       <created>1606235827958</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606580108104</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tm 200 reduce">
+      <created>1606650420760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606650420760</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +153,8 @@
     <MESSAGE value="Tm 194 forEach" />
     <MESSAGE value="Tm 196 rare sortering" />
     <MESSAGE value="Tm 1967 filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tm 1967 filter" />
+    <MESSAGE value="Tm 200 reduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tm 200 reduce" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="334" key="Github.ShareDialog" timestamp="1606232758804">
@@ -157,9 +165,13 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="405" y="141" key="Github.UntrackedFilesDialog/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606232770963" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606580108837">
+    <state x="186" y="81" key="SettingsEditor" timestamp="1606667662268">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606580108837" />
+    <state x="186" y="81" key="SettingsEditor/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606667662268" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606650434484">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606650434484" />
   </component>
 </project>
