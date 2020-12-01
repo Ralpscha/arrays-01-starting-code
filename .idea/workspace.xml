@@ -19,14 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984ced2e-284a-4da1-9c68-9ecaed8ae47e" name="Default Changelist" comment="Tm 202 map maakt nieuw object">
+    <list default="true" id="984ced2e-284a-4da1-9c68-9ecaed8ae47e" name="Default Changelist" comment="Tm 203 ...otherInformation">
+      <change afterPath="$PROJECT_DIR$/setsmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vormgeving.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +75,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Al12104\repositories\arrays-01-starting-code" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +92,9 @@
       <workItem from="1606232747943" duration="3668000" />
       <workItem from="1606330695668" duration="75000" />
       <workItem from="1606472559785" duration="1750000" />
-      <workItem from="1606560614123" duration="12092000" />
+      <workItem from="1606560614123" duration="14526000" />
+      <workItem from="1606756195519" duration="4371000" />
+      <workItem from="1606831096509" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="tm 186 arrays loop">
       <created>1606235827958</created>
@@ -134,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606668753727</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tm 203 ...otherInformation">
+      <created>1606670129770</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606670129770</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +187,8 @@
     <MESSAGE value="Tm 1967 filter" />
     <MESSAGE value="Tm 200 reduce" />
     <MESSAGE value="Tm 202 map maakt nieuw object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tm 202 map maakt nieuw object" />
+    <MESSAGE value="Tm 203 ...otherInformation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tm 203 ...otherInformation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="334" key="Github.ShareDialog" timestamp="1606232758804">
@@ -177,9 +203,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606667662268" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606668753886">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1606670133207">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606668753886" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872/-869.-2160.2560.1400@0.0.1368.872" timestamp="1606670133207" />
   </component>
 </project>
