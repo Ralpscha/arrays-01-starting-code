@@ -5,15 +5,15 @@
 //     console.log(value);
 // }
 
-const person1 = {name: 'Max'};
-const person2 = {name: 'Manuel'};
-const person3 = {name: 'Ralph'};
-
-// const personData = new Map([[person1, [{date: 'yesterday', price: 10}]]]);
+// const person1 = {name: 'Max'};
+// const person2 = {name: 'Manuel'};
+// const person3 = {name: 'Ralph'};
+//
+// // const personData = new Map([[person1, [{date: 'yesterday', price: 10}]]]);
+// // personData.set(person2, [{ date: 'tomorrow', price: 200}]);
+//
+// const personData = new Map([[person1, [{date: 'yesterday', price: 10}]],[person3,[{date: '28 april', price: 68}]]]);
 // personData.set(person2, [{ date: 'tomorrow', price: 200}]);
-
-const personData = new Map([[person1, [{date: 'yesterday', price: 10}]],[person3,[{date: '28 april', price: 68}]]]);
-personData.set(person2, [{ date: 'tomorrow', price: 200}]);
 
 // console.log(personData);
 // console.log(personData.get(person1));
@@ -34,4 +34,16 @@ personData.set(person2, [{ date: 'tomorrow', price: 200}]);
 //     console.log(waarde);
 // }
 
-console.log(personData.size);
+// console.log(personData.size);
+
+let person = {name: 'Ralph', age: 52};
+const persons = new WeakSet();
+persons.add(person);
+console.log(persons);
+
+const personData = new WeakMap();
+personData.set(person, 'Koga f3 5.0');
+
+person = null;
+
+console.log(personData);
